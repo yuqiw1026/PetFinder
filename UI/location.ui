@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>location</class>
+ <widget class="QWidget" name="location">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>597</width>
+    <height>420</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>110</y>
+     <width>771</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="title">
+       <string>Enter Location:</string>
+      </property>
+      <widget class="QGroupBox" name="groupBox_2">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>30</y>
+         <width>291</width>
+         <height>181</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>State</string>
+       </property>
+       <widget class="QComboBox" name="comboBox">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>40</y>
+          <width>171</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Alabama</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Alaska</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Arizona</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Arkansas</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>California</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Colorado</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Connecticut</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Delaware</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Florida</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Georgia</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Hawaii</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Idaho</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Illinois</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Indiana</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Iowa</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Kansas</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Kentucky</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Louisiana</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Maine</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Maryland</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Massachusetts</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Michigan</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Minnesota</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mississippi</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Missouri</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Montana</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Nebraska</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Nevada</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>New Hampshire</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>New Jersey</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>New Mexico</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>New York</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>North Carolina</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>North Dakota</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Ohio</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Oklahoma</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Oregon</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Pennsylvania</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Rhode Island</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>South Carolina</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>South Dakota</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Tennessee</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Texas</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Utah</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Vermont</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Virginia</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Washington</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>West Virginia</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Wisconsin</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Wyoming</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox">
+       <property name="geometry">
+        <rect>
+         <x>370</x>
+         <y>30</y>
+         <width>321</width>
+         <height>181</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>City</string>
+       </property>
+       <widget class="QTextBrowser" name="textBrowser">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>30</y>
+          <width>191</width>
+          <height>61</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>81</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>:/imgs/Location1.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>370</y>
+     <width>160</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>Ok</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
